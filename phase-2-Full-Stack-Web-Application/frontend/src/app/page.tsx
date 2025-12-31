@@ -40,7 +40,7 @@ export default function Home() {
     // Force a minimum 6 second loading screen as requested
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 6000);
+    }, 4000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -94,25 +94,25 @@ export default function Home() {
         </motion.header>
 
         {/* Main content */}
-        <main className="container mx-auto px-4 py-12 relative z-10">
+        <main className="container mx-auto px-4 py-8 md:py-12 relative z-10">
           <div className="max-w-6xl mx-auto">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              className="mb-10"
+              className="mb-8 md:mb-10"
             >
-              <div className="flex items-center gap-4 mb-3">
-                <div className="p-2 rounded-lg bg-primary/10">
-                  <ListTodo className="h-8 w-8 text-primary" />
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-3">
+                <div className="p-2 rounded-lg bg-primary/10 w-fit">
+                  <ListTodo className="h-6 w-6 md:h-8 md:w-8 text-primary" />
                 </div>
-                <h2 className="text-4xl font-extrabold tracking-tight">Active Workspace</h2>
+                <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">Active Workspace</h2>
               </div>
-              <p className="text-white/60 text-lg ml-14">
+              <p className="text-white/60 text-base md:text-lg sm:ml-14">
                 Efficiency is doing things right; effectiveness is doing the right things.
               </p>
             </motion.div>
 
-            <div className="grid gap-8 lg:grid-cols-12">
+            <div className="grid gap-8 lg:grid-cols-12 items-start">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
