@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/hotline/layout,_N_T_/hotline/page,_N_T_/hotline"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/hotline/__PAGE__",
+    "/hotline",
+    "/_index",
+    "/_head"
+  ]
+}

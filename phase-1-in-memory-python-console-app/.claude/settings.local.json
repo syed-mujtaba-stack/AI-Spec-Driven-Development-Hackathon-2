@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p history/prompts/spec/)",
+      "Bash(git rev-parse --git-dir)",
+      "Bash(python src/todo_app/main.py)",
+      "Bash(python test_todo_app.py)",
+      "Bash(python demo_todo_app.py)",
+      "Bash(timeout 30s python src/todo_app/main.py)",
+      "Bash(timeout 30s python -m src.todo_app.main)",
+      "Bash(PYTHONPATH=. python -c \"import sys; sys.path.insert\\(0, ''.''\\); from src.todo_app.main import main; main\\(\\)\")",
+      "Bash(python -m src.todo_app.main)",
+      "Bash(python test_imports.py)",
+      "Bash(python interactive_demo.py)",
+      "Bash(python final_verification.py)",
+      "Bash(del test_todo_app.py demo_todo_app.py interactive_demo.py final_verification.py test_imports.py)"
+    ]
+  }
+}

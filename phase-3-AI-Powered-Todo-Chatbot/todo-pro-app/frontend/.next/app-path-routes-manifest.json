@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/manifest.webmanifest/route": "/manifest.webmanifest",
+  "/about/page": "/about",
+  "/careers/page": "/careers",
+  "/brand/page": "/brand",
+  "/mission/page": "/mission",
+  "/hotline/page": "/hotline",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/terms/page": "/terms",
+  "/vitals/page": "/vitals",
+  "/(auth)/register/page": "/register",
+  "/(auth)/login/page": "/login"
+}
