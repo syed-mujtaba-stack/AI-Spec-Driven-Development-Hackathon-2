@@ -1,6 +1,0 @@
-api
-core
-main
-middleware
-models
-services
